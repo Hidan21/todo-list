@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TODO-LIST</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!--  MAIN   -->
+  <main class="main">
+    <header class="header" id="header">
+      <h1>NOTAS</h1>
+      <form class="formulario__header" id="formulario">
+        <input type="text" class="input__formulario-header" placeholder="agregar nota"><br>
+        <input type="submit" value="agregar" class="btn__agregar">
+      </form>
+      <div class="error">
+        <p>no se puede agregar una nota vacia</p>
+      </div>
+    </header>
+
+  </main><!-- FIN MAIN -->
+
+
+  <section class="seccion__buscador">
+    <form class="buscar" id="buscar">
+      <input type="text" class="input__buscar" placeholder="buscar">
+      <button><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
+  </section>
+
+  <div class="contenedor">
+    <h2>notas agregadas</h2>
+    <ul class="contenedor__tareas" id="contenedor__tareas">
+
+      <!-- <li>segunda tardea <i class="fa-solid fa-trash-can"></i></li>
+      <li>segunda tarea <i class="fa-solid fa-trash-can"></i></li>
+      <li>segunda tarea <i class="fa-solid fa-trash-can"></i></li>
+      <li>segunda tarea <i class="fa-solid fa-trash-can"></i></li>
+      <li>segunda tarea <i class="fa-solid fa-trash-can"></i></li> -->
+
+    </ul>
+
+  </div>
+
+  <!-- ICONS FONT AWESOME -->
+  <script src="js/app.js"></script>
+  <script src="https://kit.fontawesome.com/73f851add2.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

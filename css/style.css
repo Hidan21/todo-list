@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  background: #24294e;
+  font-family: 'Arsenal', sans-serif;
+}
+
+header {
+  background: #2f3768;
+  text-align: center;
+  color: #9a9ca3;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-bottom: 15px;
+  box-shadow: 1px 30px 65px -21px rgba(12, 12, 12, 0.55);
+}
+
+header h1 {
+  margin-bottom: 15px;
+ 
+}
+
+.input__formulario-header {
+  width: 90%;
+  height: 50px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  background: #2b3058;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  box-shadow: 1px 5px 10px -3px rgba(0,0,0,0.67);
+}
+
+.btn__agregar{
+  width: 40%;
+  min-width: 160px;
+  text-align: center;
+  padding: 10px;
+  font-size: 1em;
+  text-transform: uppercase;
+  font-weight: 700;
+  border-radius: 10px;
+  border: none;
+  color: rgb(183, 182, 190);
+  background: #2b3058;
+  border: 2px solid #39448b;
+  cursor: pointer;
+  box-shadow: 1px 5px 10px -3px rgba(0,0,0,0.67);
+
+}
+
+.btn__agregar:hover{
+  color: #d7d9e4;
+  border: 2px solid #182ebb;
+}
+
+.input__buscar{
+  margin: 30px 10px 30px 20px;
+  width: 70%;
+  height: 45px;
+  border-radius: 6px;
+  border: 1px solid #39448b;
+  outline: none;
+  background: #2b3058;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  display: none;
+}
+.input__buscar:focus{
+  box-shadow: 1px 5px 10px -3px rgba(0,0,0,0.67); 
+}
+
+.buscar button{
+  height: 20px;
+  background: transparent;
+  border: none;
+  font-size: 25px;
+  color: #676d91;
+  display: none;
+}
+
+.contenedor__tareas li{
+  display:flex;
+  margin: 30px 10px 34px 20px;
+  width: 85%;
+  border-radius: 10px;
+  justify-content: space-between;
+  background: #2b3058;
+  align-items: center;
+  padding: 25px;
+  font-size: 2rem;
+  font-weight: 600;
+  border: 1px solid #39448b;
+  color: #bfc2d4;
+  box-shadow: 1px 5px 10px -3px rgba(0,0,0,0.67);
+
+}
+
+.contenedor__tareas li i{
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.error{
+  background: #4e242f;
+  width: 85%;
+  margin: 30px auto 10px;
+  padding: 10px;
+  color: #d7d9e4;
+  font-weight: 700;
+  font-size: 1em;
+  text-transform: uppercase;
+  border-radius: 10px;
+  display: none;
+}
+.error2{
+  display: block;
+}
+
+.contenedor h2{
+  margin: 30px;
+  text-align: center;
+  font-size: 2rem;
+  color: #9a9ca3;
+  text-transform: uppercase;
+}
