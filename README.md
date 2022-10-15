@@ -1,5 +1,5 @@
 # todo-list
 primera aplicacion web con html css y javascript
 
-#descripcion
+## descripcion
 lista de tareas con almacenamiento en el localstorage
